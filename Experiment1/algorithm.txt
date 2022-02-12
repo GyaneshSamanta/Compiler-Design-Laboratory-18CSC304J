@@ -1,0 +1,12 @@
+•	Start
+•	Get the input program from the file prog.txt.
+•	Read the program line by line and check if each word in a line is a keyword, identifier, constant or an operator.
+•	If the word read is an identifier, assign a number to the identifier and make an entry into the symbol table stored in sybol.txt.
+•	For each lexeme read, generate a token as follows:
+a.	If the lexeme is an identifier, then the token generated is of the form
+<id, number>
+b.		If the lexeme is an operator, then the token generated is <op, operator>.
+c.	If the lexeme is a constant, then the token generated is <const, value>.
+d.	If the lexeme is a keyword, then the token is the keyword itself.
+•	The stream of tokens generated are displayed in the console output.
+•	Stop.
